@@ -1,0 +1,32 @@
+{
+  "name": "super-qs-parser",
+  "description": "Utility to parse and transform querystirng for easier usage with ORMs",
+  "version": "0.0.1",
+  "main": "index.js",
+  "homepage": "https://github.com/beeblebrox3/super-qs-parser",
+  "issues": "https://github.com/beeblebrox3/super-qs-parser/issues",
+  "scripts": {
+    "test": "jest --config jest.config.js",
+    "test:coverage": "jest --config jest.config.js --collect-coverage",
+    "lint": "eslint ./src",
+    "lint:fix": "eslint --fix ./src",
+    "lint:errors": "eslint --quiet ./src"
+  },
+  "author": "Luís Henrique Faria <luish.faria@gmail.com> (https://github.com/beeblebrox3)",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^27.0.3",
+    "@types/lodash": "^4.14.177",
+    "@types/qs": "^6.9.7",
+    "@typescript-eslint/eslint-plugin": "^5.27.0",
+    "@typescript-eslint/parser": "^5.27.0",
+    "eslint": "^8.17.0",
+    "jest": "^27.3.1",
+    "ts-jest": "^27.0.7",
+    "typescript": "^4.7.3"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "qs": "^6.10.1"
+  }
+}
